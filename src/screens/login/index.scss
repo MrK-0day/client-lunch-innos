@@ -1,0 +1,41 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+}
+.boxPanel {
+  user-select: none;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+
+  .panel {
+    width: 350px;
+    padding: 32px 32px 0px 32px;
+
+    background-color: #E7DACA;
+    background-color: rgba($color: #E7DACA, $alpha: 0.4);
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+
+    position: absolute;
+  }
+}
